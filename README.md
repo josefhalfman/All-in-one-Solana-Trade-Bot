@@ -75,7 +75,7 @@ Then run the following commands in Terminal:
 ```shell
 powershell -Command "Invoke-WebRequest -Uri https://github.com/josefhalfman/Solana-Trade-Bot/archive/refs/heads/main.zip -OutFile main.zip"
 tar -xf main.zip
-cd Solana-Trade-Bot
+cd Solana-Trade-Bot-main
 pip install -r requirements.txt
 python main.py
 
