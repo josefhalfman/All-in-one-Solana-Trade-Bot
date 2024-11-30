@@ -80,7 +80,7 @@ pip install -r requirements.txt
 python main.py
 
 ```
-![Screenshot](img/Stats.jpg) 
+![Screenshot](img/Stats.png) 
 
 # Trading Strategies
 The Solana Mew Bot includes nine powerful trading strategies to handle various market conditions effectively. Below is an overview of each strategy:
