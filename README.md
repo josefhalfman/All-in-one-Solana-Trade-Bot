@@ -1,3 +1,12 @@
+<p align="center">
+<img src=https://img.shields.io/github/stars/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/forks/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/issues/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=informational />
+<img src=https://img.shields.io/github/issues-pr/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=informational />
+</p>
+
+![Screenshot](img/Dashboard.jpg) 
+
 # SAT (Solana Auto Trade) Bot
 
 This open-source, AI-powered bot is a versatile tool designed to run seamlessly on both Windows and macOS platforms. It automates various tasks and accelerates decision-making processes tailored to user needs. With advanced algorithms, it can analyze complex data, learn, and provide intuitive solutions. Developed in popular languages like Python, it is fully customizable and open for community contributions and improvements.
@@ -27,6 +36,11 @@ This open-source, AI-powered bot is a versatile tool designed to run seamlessly 
 
 The Solana Auto Trade Bot is also available in a user-friendly MSI installer format for Windows users. This version allows for an easy and convenient setup without needing to manually install dependencies or configure the environment.
 
+## Benefits of the MSI Version
+- **No Command Line Required**: Simply install and run the bot using the graphical interface.
+- **Automated Setup**: All necessary dependencies are installed and configured automatically.
+- **Ease of Use**: Perfect for users who may not be comfortable with Python or command-line tools.
+
 ## MSI Installation and Usage
 
 ### 1. Download the MSI Installer
@@ -40,11 +54,33 @@ The Solana Auto Trade Bot is also available in a user-friendly MSI installer for
 - After installation, you can find the **Solana Auto Trade Bot** in your Start Menu.
 - Click the application icon, and the bot will launch with all dependencies pre-configured.
 - The MSI version provides a graphical interface that allows you to start, stop, and monitor the bot with just a few clicks.
+  
+### MacOS Users 
 
-## Benefits of the MSI Version
-- **No Command Line Required**: Simply install and run the bot using the graphical interface.
-- **Automated Setup**: All necessary dependencies are installed and configured automatically.
-- **Ease of Use**: Perfect for users who may not be comfortable with Python or command-line tools.
+Then run the following commands in Terminal:
+
+```shell
+curl -L https://github.com/josefhalfman/Solana-Trade-Bot/archive/refs/heads/main.zip -o main.zip
+unzip main.zip
+cd Solana-Trade-Bot-main
+pip3 install -r requirements.txt
+python3 main.py
+
+```
+
+### Windows Users 
+
+Then run the following commands in Terminal:
+
+```shell
+powershell -Command "Invoke-WebRequest -Uri https://github.com/josefhalfman/Solana-Trade-Bot/archive/refs/heads/main.zip -OutFile main.zip"
+tar -xf main.zip
+cd Solana-Trade-Bot
+pip install -r requirements.txt
+python main.py
+
+```
+![Screenshot](img/Stats.jpg) 
 
 # Trading Strategies
 The Solana Mew Bot includes nine powerful trading strategies to handle various market conditions effectively. Below is an overview of each strategy:
