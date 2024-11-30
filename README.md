@@ -5,7 +5,7 @@
 <img src=https://img.shields.io/github/issues-pr/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=informational />
 </p>
 
-![Screenshot](img/Dashboard.jpg) 
+![Screenshot](img/Dashboard.png) 
 
 # SAT (Solana Auto Trade) Bot
 
