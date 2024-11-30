@@ -23,8 +23,30 @@ This open-source, AI-powered bot is a versatile tool designed to run seamlessly 
 ### Logging and Notifications
 - Keeps detailed logs of all transactions and provides alerts for significant events.
 
-# Trading Strategies
+# Windows Installer Version (MSI)
 
+The Solana Auto Trade Bot is also available in a user-friendly MSI installer format for Windows users. This version allows for an easy and convenient setup without needing to manually install dependencies or configure the environment.
+
+## MSI Installation and Usage
+
+### 1. Download the MSI Installer
+[Download the Latest MSI Installer Here](#)
+
+### 2. Run the Installer
+- Double-click the `.msi` file to start the installation.
+- Follow the on-screen instructions to complete the installation.
+
+### 3. Launch the Bot
+- After installation, you can find the **Solana Auto Trade Bot** in your Start Menu.
+- Click the application icon, and the bot will launch with all dependencies pre-configured.
+- The MSI version provides a graphical interface that allows you to start, stop, and monitor the bot with just a few clicks.
+
+## Benefits of the MSI Version
+- **No Command Line Required**: Simply install and run the bot using the graphical interface.
+- **Automated Setup**: All necessary dependencies are installed and configured automatically.
+- **Ease of Use**: Perfect for users who may not be comfortable with Python or command-line tools.
+
+# Trading Strategies
 The Solana Mew Bot includes nine powerful trading strategies to handle various market conditions effectively. Below is an overview of each strategy:
 
 ## 1. Momentum Strategy
