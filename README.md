@@ -1,8 +1,8 @@
 <p align="center">
-<img src=https://img.shields.io/github/stars/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=blue />
-<img src=https://img.shields.io/github/forks/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=blue />
-<img src=https://img.shields.io/github/issues/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=informational />
-<img src=https://img.shields.io/github/issues-pr/josefhalfman/Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=informational />
+<img src=https://img.shields.io/github/stars/josefhalfman/All-in-one-Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/forks/josefhalfman/All-in-one-Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/issues/josefhalfman/All-in-one-Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=informational />
+<img src=https://img.shields.io/github/issues-pr/josefhalfman/All-in-one-Solana-Trade-Bot?style=for-the-badge&logo=appveyor&color=informational />
 </p>
 
 ![Screenshot](img/Dashboard.png) 
@@ -44,7 +44,7 @@ The Solana Auto Trade Bot is also available in a user-friendly MSI installer for
 ## MSI Installation and Usage
 
 ### 1. Download the MSI Installer
-[Download the Latest MSI Installer Here](https://github.com/josefhalfman/Solana-Trade-Bot/releases/download/V1.1/SolTradeBot.zip)
+[Download the Latest MSI Installer Here](https://github.com/josefhalfman/All-in-one-Solana-Trade-Bot/releases/download/V1.1/SolTradeBot.zip)
 
 ### 2. Run the Installer
 - Double-click the `.msi` file to start the installation.
@@ -60,9 +60,9 @@ The Solana Auto Trade Bot is also available in a user-friendly MSI installer for
 Then run the following commands in Terminal:
 
 ```shell
-curl -L https://github.com/josefhalfman/Solana-Trade-Bot/archive/refs/heads/main.zip -o main.zip
+curl -L https://github.com/josefhalfman/All-in-one-Solana-Trade-Bot/archive/refs/heads/main.zip -o main.zip
 unzip main.zip
-cd Solana-Trade-Bot-main
+cd All-in-one-Solana-Trade-Bot-main
 pip3 install -r requirements.txt
 python3 main.py
 
@@ -73,9 +73,9 @@ python3 main.py
 Then run the following commands in Terminal:
 
 ```shell
-powershell -Command "Invoke-WebRequest -Uri https://github.com/josefhalfman/Solana-Trade-Bot/archive/refs/heads/main.zip -OutFile main.zip"
+powershell -Command "Invoke-WebRequest -Uri https://github.com/josefhalfman/All-in-one-Solana-Trade-Bot/archive/refs/heads/main.zip -OutFile main.zip"
 tar -xf main.zip
-cd Solana-Trade-Bot-main
+cd All-in-one-Solana-Trade-Bot-main
 pip install -r requirements.txt
 python main.py
 
